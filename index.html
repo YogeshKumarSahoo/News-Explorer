@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="search_bar">
+            <div class="search">
+                <img src="search_thin.png" alt="" width="20rem">
+                <input type="text" name="search" id="search-field" placeholder="Search for news">
+            </div>
+            <button type="submit" id="search_btn">
+                <img src="search_btn.png" alt="" width="30rem">
+            </button>
+        </div>
+        <h3>Top Stories for you</h3>
+        <div class="catogiries">
+            <button id="all-news">All</button>
+        </div>
+    </header>
+    <main id="main">
+    </main>
+    <footer>
+        <button onclick="removeLimit()">Show More</button>
+    </footer>
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    width: 90%;
+    margin: 3% 5%;
+}
+h3{
+    margin-top: 3%;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.search_bar{
+    width: 75%;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    width: 75%;
+}
+.search_bar input[type="text"]{
+    width: 75%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: x-large;
+}
+.search_bar button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.search_bar button img{
+    margin: 5px;
+}
+.catogiries button{
+    padding: 1px;
+    width: 11rem;
+    height: 3.5rem;
+    margin: 2rem;
+    border: #fff;
+    border-radius: 5px;
+    font-size: 1.5em;
+    background-color: #e0e0e0;
+}
+#all-news{
+    background-color: black; 
+    color: white
+}
+main{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 40px;
+    row-gap: 80px;
+    font-size: 1.5em;
+}
+.news-card{
+    padding: 20px;
+    border: 2px solid #000;
+
+}
+.full-width {
+    grid-column: 1 / -1;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer button{
+    background-color: #000;
+    color: #fff;
+    padding: 1px;
+    width: 11rem;
+    height: 3.5rem;
+    margin: 2rem;
+    border: #fff;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.heading span{
+    color: red;
+}
